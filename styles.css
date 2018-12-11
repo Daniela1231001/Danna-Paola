@@ -1,0 +1,54 @@
+#header{
+    border:10px solid red;
+    background-color:blue;
+    padding:20px; 
+    margin:5px;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3piR06yRYYI6_YD3s2Bavgoacn3SAUUu9qm7FiGibfblIgYB5sg");
+    color:white;
+    font-family: 'Patrick Hand', cursive;
+    font-size:18px;
+}
+#pictures{
+   display:flex; 
+   justify-content:space-around;
+   align-items:center;
+   background-color:lightblue;
+   border:10px solid blue;
+   padding:40px;
+   margin:5px;
+}
+#pictures img:hover {
+  -webkit-transform: rotate(360deg);
+          transform: rotate(360deg);
+}
+#pictures img{
+    width: 20%;
+    -webkit-transition: -webkit-transform .8s ease-in-out;
+          transition:         transform .8s ease-in-out;
+}
+#donate{
+    border:10px solid red;
+    padding:15px;
+    background-color:lightpink;
+    margin:5px;
+}
+#donate button {
+    width:200px;
+    height:70px;
+    font-size:20px;
+    align-items:center;
+}
+#speech {
+    padding:10px;
+    border:10px solid blue;
+    margin:5px;
+    background-color:purple;
+    color:white;
+font-family: 'Kaushan Script', cursive;
+}
+p {
+    font-family: 'Kaushan Script', cursive;
+    font-size:20px;
+}
+
+
